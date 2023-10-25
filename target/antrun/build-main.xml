@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <delete file="C:\Users\Rahul/tmp/cs549/dht-test/dht.jar" />
+    <copy file="C:\Users\Rahul\Documents\Rahul Rajpurohit Assignments\549\Assisgnments\Assignment2-Code\dht-grpc\target/dht-grpc-0.0.1-SNAPSHOT.jar" tofile="C:\Users\Rahul/tmp/cs549/dht-test/dht.jar" />
+  </target>
+</project>
