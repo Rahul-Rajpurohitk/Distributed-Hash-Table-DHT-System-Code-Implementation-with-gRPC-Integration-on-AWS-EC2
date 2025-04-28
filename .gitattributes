@@ -1,0 +1,6 @@
+# Mark all .java as Java explicitly
+**/*.java linguist-language=Java
+
+# Hide IDE and build directories from language stats
+.idea/** linguist-vendored=true
+target/** linguist-vendored=true
